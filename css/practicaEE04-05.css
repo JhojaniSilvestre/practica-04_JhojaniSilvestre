@@ -1,0 +1,21 @@
+:root{
+	font-family:Calibri;
+	font-size:14pt;
+	line-height:1.5rem;
+	background-color:green;
+	color:white;
+	margin-left:5%;
+	margin-top:5%;
+}
+#alcazar, #medina{
+	border:1px solid red;
+}
+
+.primero{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 16pt;
+	background-color: red;
+	color: yellow;
+	line-height: 1.5;
+	padding: 20pt 30pt 20pt 30pt;
+}

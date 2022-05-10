@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/practicaEE04-03.css" rel="stylesheet" type="text/css" />
+    <script src="jQuery/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="js/practicaEE04-03.js" type="text/javascript"></script>
+    <title>Practica 03</title>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <section>
+            <form id="formulario">
+                <label for="cod">Código</label>
+                <input type="text" name="cod" id="cod" /> <br />
+                <label for="nom">Nombre</label>
+                <input type="text" name="nom" id="nom" /> <br />
+                <input type="button" name="anyadir" id="anyadir" value="Añadir" />
+                <input type="button" name="borrar" id="borrar" value="Borrar" />
+                <input type="button" name="modif" id="modif" value="Modificar" /><br>
+                <br>
+                <label for="numFila">Número de fila</label>
+                <input type="text" name="numFila" id="numFila" />
+                <input type="button" name="borrarFila" id="borrarFila" value="Borrar Fila" /><br><br>
+
+                <input type="button" name="borrarTodo" id="borrarTodo" value="Borrar Todo" />
+                <br><br>
+                <table id="tabla">
+                    <thead>
+                        <tr><th>Código</th><th>Nombre</th></tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+    <aside></aside>
+</body>
+</html>
